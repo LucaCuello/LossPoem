@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/icon.png"/>
+</head>
+<body>
+    <section class="parallax-section">
+        <div class="hero-container">
+            <h1>love and death</h1>
+            <p>This is a japanese poem about loss</p>
+            <a href="#info-section"><button>Read it</button></a>
+        </div>
+        <img src="assets/stars.svg" alt="" class="stars rellax" data-rellax-speed="8">
+        <img src="assets/clouds.svg" alt="" class="clouds rellax" data-rellax-speed="8">
+        <img src="assets/fuji.svg" alt="" class="fuji rellax" data-rellax-speed="-8">
+        <img src="assets/sakura.svg" alt="" class="sakura rellax" data-rellax-speed="-5">
+        <!-- MOBILE -->
+        <div class="stars-div"></div>
+        <div class="clouds-div"></div>
+        <div class="fuji-div"></div>
+        <div class="sakura-div"></div>
+    </section>
+    <section class="info-section" id="info-section">
+        <div class="stars-container">
+        </div>
+        <div class="section-container">
+            <p class="japanese-text" data-scroll>
+                夜もすがら 契りし事を 忘れずは　こひむ涙の 色ぞゆかしき<br>
+                知る人も なき别れ路に 今はとて 心ぼそくも 急ぎたつかな
+                <br>
+                烟とも 雲ともならぬ 身なれども 草葉の露を それとながめよ
+            </p>
+            <p class="english-text" data-scroll>
+                "If you remember the promises between us,
+                <br>
+                When you think of me after my death.<br>
+                What is the color of your tears? I really want to know.<br>
+                I will have a lonely trip by myself, and farewell to you.<br>
+                We will be parted with reluctance and sorrow.<br>
+                And I will be on the path in a hurry.<br>
+                Because I will become neither dust nor cloud<br>
+                My body is just there.<br>
+                But look at the dew on the leaves and grass,<br>
+                Just think that is my incarnation."<br>
+            </p>
+            <p class="author" data-scroll>
+                -Fujiwara no Teishi-
+            </p>
+            <footer>
+                <p class="footer-p">Tree and stars illustriations Designed by <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
+                <p class="footer-p">Fuji and clouds designed by brgfx from <a href="https://www.freepik.com/" target="_blank">Freepik</a></p>
+            </footer>
+        </div>
+    </section>
+<!-- Libraries used -->
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script>
+var rellax = new Rellax(".rellax");
+ScrollOut();
+</script>
+</body>
+</html>
